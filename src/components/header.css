@@ -1,6 +1,17 @@
 header{
+    width: 90%;
+    height: 68px;
     text-align: center;
-    border-bottom: solid 1px grey;
+    border: solid 1px grey;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px 63px 100px;
+}
+
+.header-logo{
+    display: block;
+    margin: 5px 0 0 20px;
+    height: 62px;
 }
 
 ul{
@@ -15,5 +26,8 @@ ul li{
 
 a{
     text-decoration: none;
-    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF6060;
 }
