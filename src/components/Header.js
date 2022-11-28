@@ -6,7 +6,7 @@ import logo from '@/assets/HeaderLogo.svg';
 const Header = () => {
     return (
             <header>
-                <Link to='/home'>
+                <Link className='header-link' to='/home'>
                     <img className='header-logo' src={logo} alt='Logo Kasa'/>
                 </Link>
                 <nav>
