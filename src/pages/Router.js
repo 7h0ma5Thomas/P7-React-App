@@ -1,13 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import Layout from '@/pages/Layout';
-import Home from '@/pages/Home';
-import Housing from '@/pages/Housing';
-import About from '@/pages/About';
-import Error from '@/pages/Error';
+import { Layout, Home, Housing, About, Error } from '@/pages';
 
-const AllRoute = () => {
+const Router = () => {
     return (
         <div>
             <Routes>
@@ -25,4 +21,4 @@ const AllRoute = () => {
     );
 };
 
-export default AllRoute;
+export default Router;
