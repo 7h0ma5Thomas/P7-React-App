@@ -6,13 +6,13 @@ import logo from '@/assets/HeaderLogo.svg';
 const Header = () => {
     return (
             <header>
-                <Link className='header-link' to='/home'>
+                <Link className='header-link-logo' to='/home'>
                     <img className='header-logo' src={logo} alt='Logo Kasa'/>
                 </Link>
                 <nav>
                     <ul>
-                        <li><Link to='/home'>Accueil</Link></li>
-                        <li><Link to='/about'>A Propos</Link></li>
+                        <li><Link className='header-link' to='/home'>Accueil</Link></li>
+                        <li><Link className='header-link' to='/about'>A Propos</Link></li>
                     </ul>
                 </nav>
             </header>
