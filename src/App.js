@@ -1,20 +1,13 @@
-import logo from '@/logo.svg';
 import '@/App.css';
-import Home from '@/pages/Home';
-import Housing from '@/pages/Housing';
-import About from '@/pages/About';
-import Error from '@/pages/Error';
+import { BrowserRouter } from 'react-router-dom';
+import AllRoute from '@/pages/AllRoute';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Home />
-        <Housing />
-        <About />
-        <Error />
-      </header>
+      <BrowserRouter>
+        <AllRoute />
+      </BrowserRouter>   
     </div>
   );
 }
