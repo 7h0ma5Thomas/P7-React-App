@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from '@/assets/FooterLogo.svg';
 import './footer.css'
 
-const Footer = () => {
+export default function Footer() {
     return (
         <footer>
             <Link className='footer-link' to='/home'>
@@ -13,5 +13,3 @@ const Footer = () => {
         </footer>
     );
 };
-
-export default Footer;

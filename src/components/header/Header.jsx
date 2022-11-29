@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './header.css';
 import logo from '@/assets/HeaderLogo.svg';
 
-const Header = () => {
+export default function Header() {
     return (
             <header>
                 <Link className='header-link-logo' to='/home'>
@@ -14,9 +14,7 @@ const Header = () => {
                         <li><Link className='header-link' to='/home'>Accueil</Link></li>
                         <li><Link className='header-link' to='/about'>A Propos</Link></li>
                     </ul>
-                </nav>
+                </nav>  
             </header>
     );
 };
-
-export default Header;

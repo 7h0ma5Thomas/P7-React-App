@@ -1,12 +1,9 @@
 import React from 'react';
 
-
-const About = () => {
+export default function Home() {
     return (
         <div>
-            About works !
+            Home works !
         </div>
     );
 };
-
-export default About;

@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import { Layout, Home, Housing, About, Error } from '@/pages';
 
-const Router = () => {
+export default function Router () {
     return (
         <div>
             <Routes>
@@ -21,4 +21,4 @@ const Router = () => {
     );
 };
 
-export default Router;
+ 
