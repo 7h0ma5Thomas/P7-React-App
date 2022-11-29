@@ -5,26 +5,25 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .footer-link{
     text-decoration: none;
+    width: 122px;
     height: 40px;
-    margin-bottom: 40px;
+    margin-top: 35px;
+    margin-bottom: 29px;
     display: flex;
     justify-content: center;
 }
 
-.footer-logo{
-    height: 40px;
-}
-
-p{  
-    font-family: 'Montserrat';
+p{
     font-style: normal;
     color: #FFFFFF;
     font-size: 24px;
     margin: 0;
-    width: 100%;
-    text-align: center;
+    width: 513px;
+    display: flex;
+    justify-content: center;
 }

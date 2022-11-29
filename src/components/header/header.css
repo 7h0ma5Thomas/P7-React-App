@@ -2,7 +2,6 @@ header{
     width: 90%;
     height: 68px;
     text-align: center;
-    border: solid 1px grey;
     display: flex;
     justify-content: space-between;
     margin: 40px 100px 63px 100px;
@@ -10,7 +9,6 @@ header{
 
 .header-logo{
     display: block;
-    margin: 5px 0 0 20px;
     height: 62px;
 }
 
@@ -21,11 +19,18 @@ header{
 ul{
     list-style: none;
     padding: 0;
+    width: 309px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
 }
 
 ul li{
-    display: inline-block;
-    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: 136px;
+    height: 34px;
+
 }
 
 .header-link{
