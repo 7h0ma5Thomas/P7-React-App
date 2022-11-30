@@ -1,21 +1,28 @@
 .body{
-    width: 100%;
+    max-width: 1240px;
     height: auto;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
 .collection{
-    width: 80%;
-    height: 1900px;
+    max-width: 1240px;
+    height: auto;
     display: flex;
-    justify-content: space-around;
-    align-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     background: #F7F7F7;
     border-radius: 25px;
-    padding: 30px 30px;
+    padding: 50px 0;
     margin-bottom: 50px;
+    gap: 55px 60px;
 }
+
+/*@media screen and (max-width: 992px){
+    .collection{
+        height: auto;
+    }
+}*/
 

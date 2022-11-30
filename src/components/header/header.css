@@ -1,5 +1,5 @@
 header{
-    width: 90%;
+    width: 1240px;
     height: 68px;
     text-align: center;
     display: flex;
@@ -39,4 +39,8 @@ ul li{
     font-weight: 500;
     font-size: 24px;
     color: #FF6060;
+}
+
+.header-link:hover{
+    text-decoration: underline 2px #FF6060;
 }
