@@ -7,6 +7,18 @@ header{
     margin: 40px 100px 63px 100px;
 }
 
+@media screen and (max-width: 1300px){
+    header{
+       width: 90%;
+    }
+}
+
+@media screen and (max-width: 822px){
+    header{
+        margin: 25px 100px 25px 100px;
+    }
+}
+
 .header-logo{
     display: block;
     height: 62px;
@@ -14,6 +26,22 @@ header{
 
 .header-link-logo{
     text-decoration: none;
+}
+
+.nav-hidden{
+    display: none;
+}
+
+@media screen and (max-width: 558px){
+    .nav-normal{
+    display: none;
+    }
+}
+
+@media screen and (max-width: 558px){
+    .nav-hidden{
+        display: block;
+    }
 }
 
 ul{
@@ -25,12 +53,19 @@ ul{
     justify-content: space-between;
 }
 
+@media screen and (max-width: 558px){
+    ul{
+    width: 100%;
+    margin-top: 20px;
+
+    }
+}
+
 ul li{
     display: flex;
     justify-content: flex-end;
     width: 136px;
     height: 34px;
-
 }
 
 .header-link{

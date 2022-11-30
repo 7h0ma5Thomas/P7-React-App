@@ -7,6 +7,12 @@
     flex-direction: column;
 }
 
+@media screen and (max-width: 1300px){
+    .body{
+       width: 90%;
+    }
+}
+
 .collection{
     max-width: 1240px;
     height: auto;
@@ -20,9 +26,16 @@
     gap: 55px 60px;
 }
 
-/*@media screen and (max-width: 992px){
+@media screen and (max-width: 822px){
     .collection{
-        height: auto;
+        background: none;
+        padding-top: 30px;
     }
-}*/
+}
+
+@media screen and (max-width: 390px){
+    .collection{
+        width: 100%;
+    }
+}
 
