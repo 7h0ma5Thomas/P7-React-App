@@ -1,11 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useState } from 'react'
 import './header.css';
 import logo from '@/assets/HeaderLogo.svg';
+import Collapse from '@/components/collapse/Collapse';
 
 export default function Header() {
-    const [setIsOpen] = useState(true)
 
     return(
             <header>
@@ -18,15 +17,8 @@ export default function Header() {
                         <li><Link className='header-link' to='/about'>A Propos</Link></li>
                     </ul>
                 </nav>
-                <div className='nav-hidden'>
-                    <button className='nav-button' onClick={() => setIsOpen(false)}>
-                        <nav>
-                                <ul>
-                                    <li><Link className='header-link' to='/home'>Accueil</Link></li>
-                                    <li><Link className='header-link' to='/about'>A Propos</Link></li>
-                                </ul>
-                        </nav>
-                    </button>
+                <div className='collapse-nav-hidden'>
+                    <Collapse />
                 </div>    
             </header>
     );

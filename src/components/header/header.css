@@ -1,3 +1,5 @@
+/* ============== HEADER ============== */
+
 header{
     width: 1240px;
     height: 68px;
@@ -10,6 +12,7 @@ header{
 @media screen and (max-width: 1300px){
     header{
        width: 90%;
+       height: 75px;
     }
 }
 
@@ -18,6 +21,15 @@ header{
         margin: 25px 100px 25px 100px;
     }
 }
+
+@media screen and (max-width: 558px){
+    header{
+        height: 50px;
+        margin: 25px 100px 25px 100px;
+    }
+}
+
+/* =============== LOGO =============== */
 
 .header-logo{
     display: block;
@@ -28,21 +40,39 @@ header{
     text-decoration: none;
 }
 
-.nav-hidden{
-    display: none;
+@media screen and (max-width: 558px){
+    .header-logo{
+       width: 145px;
+       height: 47px; 
+    }
+}
+
+/* ================ NAV ================ */
+
+.collapse-nav-hidden{
+    display: none; 
 }
 
 @media screen and (max-width: 558px){
     .nav-normal{
-    display: none;
+       align-self: center; 
     }
 }
 
-@media screen and (max-width: 558px){
-    .nav-hidden{
-        display: block;
+@media screen and (max-width: 455px){
+    .nav-normal{
+        display: none;
     }
 }
+
+@media screen and (max-width: 455px){
+    .collapse-nav-hidden{
+        display: block;
+        width: 40%;
+    }
+}
+
+/* ================= UL ================= */
 
 ul{
     list-style: none;
@@ -56,10 +86,11 @@ ul{
 @media screen and (max-width: 558px){
     ul{
     width: 100%;
-    margin-top: 20px;
-
+    margin: 0;
     }
 }
+
+/* ================= LI ================= */
 
 ul li{
     display: flex;
@@ -67,6 +98,8 @@ ul li{
     width: 136px;
     height: 34px;
 }
+
+/* =============== LINK =============== */
 
 .header-link{
     text-decoration: none;
