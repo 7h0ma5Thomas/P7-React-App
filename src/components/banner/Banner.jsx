@@ -6,7 +6,7 @@ export default function Banner() {
   return (
     <div className='banner'>
         <img className='banner-pic' src={pic} alt="Un paysage" />
-        <h1>Chez vous, partout et ailleurs</h1>
+        <h1 className='banner-title'>Chez vous, partout et ailleurs</h1>
     </div>
   );
 };

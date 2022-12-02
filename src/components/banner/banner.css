@@ -9,7 +9,6 @@
 @media screen and (max-width: 822px){
     .banner{
         margin-bottom: 0;
-        height: 20%;
     }
 }
 
@@ -23,30 +22,38 @@
 
 .banner-pic{
     width: 100%;
-    height: 100%;
+    height: 223px;
+    height: auto;
     object-fit: cover;
     border-radius: 25px;
     filter: brightness(65%);
     -webkit-filter: brightness(65%);
 }
 
+
+@media screen and (max-width: 1300px){
+    .banner-pic{
+        height: 223px;
+    }
+}
+
 /* ================ H1 ================ */
 
-h1{
+.banner-title{
     width: 705px;
     height: 68px;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 48px;
     position: relative;
-    bottom: 150px;
-    left: 22%;
+    bottom: 145px;
+    align-self: center;
     text-align: center;
     margin: 0;
 }
 
-@media screen and (max-width: 1300px){
+/*@media screen and (max-width: 1300px){
     h1{
         left: 211px;
     }
-}
+}*/
