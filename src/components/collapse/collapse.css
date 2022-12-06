@@ -14,6 +14,15 @@
     -o-border-radius: 15px;
 }
 
+.collapse-open img{
+    object-fit: cover;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}
+
 /* ================ BUTTON ================ */
 
 .collapse-button{

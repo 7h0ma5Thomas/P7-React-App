@@ -1,8 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import vectorDown from '@/assets/VectorDown.png';
-import vectorUp from '@/assets/VectorUp.png';
+import vector from '@/assets/Vector.png';
 import './collapse.css'
 
 export default function Collapse() {
@@ -11,7 +10,7 @@ export default function Collapse() {
   return isOpen ? (
     <div className='collapse-open'>
         <button className='collapse-button' onClick={() => setIsOpen(false)}>
-            <img src={vectorUp} alt="Flèche d'ouverture menu" />
+            <img src={vector} alt="Flèche d'ouverture menu" />
         </button>
         <ul className='collapse-ul'>
             <li className='collapse-li'><Link className='collapse-link' to='/home'>Accueil</Link></li>
@@ -21,7 +20,7 @@ export default function Collapse() {
   ) : (
     <div className='collapse-close'>
         <button className='collapse-button' onClick={() => setIsOpen(true)}>
-            <img src={vectorDown} alt="Flèche d'ouverture menu" />
+            <img src={vector} alt="Flèche d'ouverture menu" />
         </button>
     </div>
   )
