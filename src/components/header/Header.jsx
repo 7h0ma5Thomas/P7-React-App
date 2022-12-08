@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
 import logo from '@/assets/HeaderLogo.svg';
-import Collapse from '@/components/collapse/Collapse';
+import BurgerMenu from '@/components/burgerMenu/BurgerMenu';
 
 export default function Header() {
 
@@ -17,8 +17,8 @@ export default function Header() {
                         <li><Link className='header-link' to='/about'>A Propos</Link></li>
                     </ul>
                 </nav>
-                <div className='collapse-nav-hidden'>
-                    <Collapse />
+                <div className='BurgerMenu-nav-hidden'>
+                    <BurgerMenu />
                 </div>    
             </header>
     );
