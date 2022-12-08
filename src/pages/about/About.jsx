@@ -1,10 +1,10 @@
 import React from 'react';
-import CollapseAbout from '../../components/collapse/CollapseAbout';
+import Collapse from '@/components/collapse/Collapse';
 
 export default function About() {
     return (
         <div>
-            <CollapseAbout />
+            <Collapse />
         </div>
     );
 };

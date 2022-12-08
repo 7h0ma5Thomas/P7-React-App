@@ -1,0 +1,32 @@
+.collapse-open{
+    width: 1023px;
+    height: 146px;
+    background: #F7F7F7;
+    border-radius: 5px;
+}
+
+.collapse-open img{
+    object-fit: cover;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}
+
+.collapse-close{
+    width: 1023px;
+    height: 47px;
+    background: #FF6060;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.collapse-button{
+    background: #FF6060;
+    border: #FF6060;
+    width: 40px;
+    height: 24px;
+    margin: auto 25px;
+}

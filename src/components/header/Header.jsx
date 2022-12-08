@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
-import logo from '@/assets/HeaderLogo.svg';
+import logo from '@/assets/headerLogo.png';
 import BurgerMenu from '@/components/burgerMenu/BurgerMenu';
 
 export default function Header() {
