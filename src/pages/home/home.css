@@ -1,3 +1,5 @@
+/* ============== BODY ============== */
+
 .body{
     max-width: 1240px;
     height: auto;
@@ -12,6 +14,8 @@
        width: 90%;
     }
 }
+
+/* =========== COLLECTION =========== */
 
 .collection{
     max-width: 1240px;

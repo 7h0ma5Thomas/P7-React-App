@@ -17,10 +17,10 @@ export default function Home() {
             <div className='collection'>
                 {allAparts.map(({ title, id, cover}) => (
                     <Card 
+                        key={title + id}
                         title={title}
                         id={id}
                         cover={cover}
-                        key={title + id}
                     />
                 ))}
             </div>

@@ -1,8 +1,11 @@
+/* ================ OPEN ================ */
+
 .collapse-open{
     width: 1023px;
-    height: 146px;
     background: #F7F7F7;
     border-radius: 5px;
+    margin-bottom: 31px;
+    padding: auto;
 }
 
 .collapse-open img{
@@ -14,6 +17,18 @@
     -o-transform: rotate(-180deg);
 }
 
+.collapse-open p{
+    color: #FF6060;
+    width: 90%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 27px 0 20px 38px;
+    text-align: justify;
+}
+
+/* ================ CLOSE ================ */
+
 .collapse-close{
     width: 1023px;
     height: 47px;
@@ -21,12 +36,28 @@
     border-radius: 5px;
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 31px;
 }
 
+@media screen and (max-width: 1300px){
+    .collapse-close{
+       width: 90%;
+    }
+}
+
+/* ================ BUTTON ================ */
+
 .collapse-button{
-    background: #FF6060;
-    border: #FF6060;
-    width: 40px;
-    height: 24px;
-    margin: auto 25px;
+    width: 100%;
+    height: 47px;
+    background-color: #FF6060;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 0 30px 0 17px;
+    cursor: pointer;
 }
