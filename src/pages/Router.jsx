@@ -11,7 +11,7 @@ export default function Router () {
                     <Route index element={<Home />} />
 
                     <Route path='/home' element={<Home />} />
-                    <Route path='/housing' element={<Housing />} />
+                    <Route path='/housing/:id' element={<Housing />} />
                     <Route path='/about' element={<About />} />
 
                     <Route path='*' element={<Error />} />
