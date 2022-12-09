@@ -29,7 +29,7 @@ p{
     color: #FFFFFF;
     font-size: 24px;
     margin: 0;
-    width: 513px;
+    width: 100%;
     display: flex;
     justify-content: center;
 }

@@ -1,7 +1,7 @@
 /* ================ OPEN ================ */
 
 .collapse-open{
-    width: 1023px;
+    width: 100%;
     background: #F7F7F7;
     border-radius: 5px;
     margin-bottom: 31px;
@@ -23,26 +23,32 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    padding: 27px 0 20px 38px;
+    padding: 4% 0 3% 5%;
     text-align: justify;
+}
+
+@media screen and (max-width: 768px){
+    .collapse-open p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .collapse-open p{
+        text-align: unset;
+    }
 }
 
 /* ================ CLOSE ================ */
 
 .collapse-close{
-    width: 1023px;
+    width: 100%;
     height: 47px;
     background: #FF6060;
     border-radius: 5px;
     display: flex;
     justify-content: flex-end;
     margin-bottom: 31px;
-}
-
-@media screen and (max-width: 1300px){
-    .collapse-close{
-       width: 90%;
-    }
 }
 
 /* ================ BUTTON ================ */

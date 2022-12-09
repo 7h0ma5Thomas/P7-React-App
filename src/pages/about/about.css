@@ -18,7 +18,7 @@
 /* ============= COLLAPSES ============= */
 
 .body-about-collapses{
-    max-width: 1240px;
+    width: 1023px;
     display: flex;
     flex-direction: column;
 }
