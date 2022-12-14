@@ -61,7 +61,7 @@ export default function Housing() {
                             id={selectedApartment?.id}
                             content={selectedApartment?.equipments.map((equipment, index) => {
                                 return(
-                                    <li key={id + equipment + index}>
+                                    <li className='housing-collapse-fittings-li' key={id + equipment + index}>
                                         {equipment}
                                     </li>
                                 )
