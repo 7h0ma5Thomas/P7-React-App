@@ -1,0 +1,51 @@
+.slideshow {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 415px;
+    width: 1240px;
+    margin: auto;
+  }
+  
+  .slideshow p {
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    z-index: 1;
+    bottom: 0;
+  }
+  
+  .slideshow-pic {
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .rightVector {
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    right: 20px;
+  }
+  
+  .leftVector {
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    left: 20px;
+  }
+  
+  .inactive {
+    opacity: 0.7;
+    transition: 1s ease;
+  }
+  
+  .active {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: 1s ease;
+  }

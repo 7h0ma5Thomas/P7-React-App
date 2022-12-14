@@ -4,6 +4,7 @@ import { useState } from "react";
 import * as Apartments from '@/data/Apartments.json';
 import leftVector from '@/assets/leftVector.png';
 import rightVector from '@/assets/rightVector.png';
+import './slideshow.css';
 
 export default function Slideshow() {
     const params = useParams()
@@ -14,11 +15,11 @@ export default function Slideshow() {
     const [onScreenPic, movePic] = useState(0)
 
     const previousPic = () => {
-        movePic(onScreenPic === 0 ? picNumber -1 : onScreenPic -1)
+        movePic(onScreenPic === 0 ? picNumber - 1 : onScreenPic - 1)
     }
 
     const nextPic = () => {
-        movePic(onScreenPic === picNumber -1 ? 0 : onScreenPic +1)
+        movePic(onScreenPic === picNumber - 1 ? 0 : onScreenPic + 1)
     }
 
     if(picNumber === 1) {
@@ -40,6 +41,7 @@ export default function Slideshow() {
             <div className='slideshow'>
                 <img className='leftVector' src={leftVector} alt='logo précédent' onClick={previousPic}/>
                 <img className='rightVector' src={rightVector} alt='logo suivant' onClick={nextPic}/>
+                <p>{onScreenPic + 1}/{picNumber}</p>
 
                 {allApartsPics.map((pics, index) => {
                     return(
