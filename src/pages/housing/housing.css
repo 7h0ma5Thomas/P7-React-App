@@ -94,6 +94,10 @@
     -o-border-radius: 50px;
 }
 
+.housing-infos-rating{
+    margin-top: 15px;
+}
+
 .housing-collapses{
     margin-top: 24px;
     width: 100%;
