@@ -11,7 +11,7 @@ export default function Slideshow() {
     const id = params.id
 
     const allApartsPics = Apartments.default.find(element => element.id === id).pictures
-    const picNumber = allApartsPics.lenght
+    const picNumber = allApartsPics.length
     const [onScreenPic, movePic] = useState(0)
 
     const previousPic = () => {

@@ -12,7 +12,7 @@ export default function Housing() {
     const selectedApartment = Apartments.default.find(apartment => apartment.id === id)
     const selectedApartmentRating = selectedApartment.rating
 
-    if(selectedApartment === undefined){
+    if(selectedApartment === undefined /*|| 'id différent' */){
         return <Navigate to='/404' />
     }
 

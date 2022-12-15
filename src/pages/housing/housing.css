@@ -1,11 +1,23 @@
+/* ============== BODY ============== */
+
 .body-housing{
     max-width: 1240px;
     height: auto;
 }
 
+@media screen and (max-width: 1300px){
+    .body-housing{
+       width: 90%;
+    }
+}
+
+/* ============ CONTAINER ============ */
+
 .housing-container{
     width: 100%;
 }
+
+/* ============== HEADER ============== */
 
 .housing-header{
     width: 100%;
@@ -39,7 +51,7 @@
 }
 
 .housing-location-tags-tag{
-    width: 115px;
+    width: 125px;
     height: 25px;
     font-style: normal;
     font-weight: 500;

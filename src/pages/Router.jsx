@@ -13,6 +13,7 @@ export default function Router () {
                     <Route path='/home' element={<Home />} />
                     <Route path='/housing/:id' element={<Housing />} />
                     <Route path='/about' element={<About />} />
+                    <Route path='/404' element={<Error />} />
 
                     <Route path='*' element={<Error />} />
                 </Route>
