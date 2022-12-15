@@ -37,6 +37,12 @@
     }
 }
 
+@media screen and (max-width: 768px){
+    .collection{
+        padding-top: 0;
+    }
+}
+
 @media screen and (max-width: 390px){
     .collection{
         width: 100%;
