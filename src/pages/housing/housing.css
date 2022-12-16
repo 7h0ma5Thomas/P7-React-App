@@ -89,7 +89,6 @@
     background: #FF6060;
     border-radius: 10px;
     -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     margin-right: 10px;
@@ -166,7 +165,6 @@
     margin-left: 10px;
     border-radius: 50px;
     -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
 }

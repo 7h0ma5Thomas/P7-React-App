@@ -9,7 +9,6 @@
     position: relative;
     z-index: 1;
     -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
 }
@@ -23,7 +22,6 @@
     border: none;
     border-radius: 5px;
     -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     position: relative;
