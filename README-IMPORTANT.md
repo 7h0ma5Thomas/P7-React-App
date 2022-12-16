@@ -1,6 +1,6 @@
 For running the project you must use :
 
-    npm starto
+    npm run starto
 
 You will see next 'craco start'
 
