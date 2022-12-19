@@ -10,11 +10,12 @@ export default function Housing() {
     const params = useParams()
     const id = params.id
     const selectedApartment = Apartments.default.find(apartment => apartment.id === id)
-    const selectedApartmentRating = selectedApartment.rating
 
-    if(selectedApartment === undefined /*|| 'id différent' */){
+    if(selectedApartment === undefined){
         return <Navigate to='/404' />
     }
+
+    const selectedApartmentRating = selectedApartment.rating
 
     return (
         <div className='body-housing'>
