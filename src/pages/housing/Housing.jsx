@@ -60,7 +60,7 @@ export default function Housing() {
                         <Collapse 
                             title={'Équipements'}
                             id={selectedApartment?.id}
-                            content={selectedApartment?.equipments.map((equipment, index) => {
+                            arrayContent={selectedApartment?.equipments.map((equipment, index) => {
                                 return(
                                     <li className='housing-collapse-fittings-li' key={id + equipment + index}>
                                         {equipment}

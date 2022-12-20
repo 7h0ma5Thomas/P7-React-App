@@ -17,6 +17,14 @@
     -o-transform: rotate(-180deg);
 }
 
+.collapse-array-content{
+    padding: 15px 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FF6060;
+}
+
 .collapse-open p{
     color: #FF6060;
     width: 90%;
