@@ -10,6 +10,8 @@ const allDatas = collapseDatas.default
 export default function About() {
     return (
         <div className='body-about'>
+            {/* On passe pic afin d'afficher l'image correspondante
+            à cette page précisément, on ne passse pas de titre */}
             <Banner 
                 pic = {picAbout}
             />
