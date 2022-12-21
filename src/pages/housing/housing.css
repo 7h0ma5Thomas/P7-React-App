@@ -94,6 +94,18 @@
     margin-right: 10px;
 }
 
+@media screen and (max-width: 360px){
+    .housing-location-tags-tag{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .housing-location-tags-tag{
+        font-size: 10px;
+    }
+}
+
 /* ============== INFOS ============== */
 
 .housing-infos{

@@ -6,9 +6,11 @@ import './layout.css'
 
 export default function Layout() {
     return (
-        <div className='Layout'>
-            <Header />
-            <Outlet /> 
+        <div>
+            <main className='Layout'>
+                <Header />
+                <Outlet /> 
+            </main>
             <Footer />
         </div>
     );

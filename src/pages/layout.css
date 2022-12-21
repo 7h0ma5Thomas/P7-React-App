@@ -1,7 +1,14 @@
 .Layout{
     width: 100%;
+    min-height: 100vh;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (max-width: 1920px){
+    .Layout{
+        min-height: 84vh;
+    }
 }

@@ -3,7 +3,7 @@ import { useState } from 'react';
 import vector from '@/assets/Vector.png';
 import './collapse.css'
 
-export default function Collapse({ title, content, arrayContent }) {
+export default function Collapse({ title, content, equipments }) {
     const [isOpen, setIsOpen] = useState(false)
 
   return isOpen ? (
@@ -12,16 +12,20 @@ export default function Collapse({ title, content, arrayContent }) {
             {title}
             <img src={vector} alt="Flèche d'ouverture menu" />
         </button>
-        {arrayContent?(
-          <div className='collapse-array-content'>
-            {arrayContent.map((equipments) => (
-              equipments
-            ))}
-          </div>
-        ):(
-          <p>{content}</p>
-        )}
-        
+        {equipments ? (
+        <div className='collapse-array-content'>
+          {equipments.map((equipment, index) => (
+            <li
+              className='housing-collapse-fittings-li'
+              key={equipment + index}
+            >
+              {equipment}
+            </li>
+          ))}
+        </div>
+      ) : (
+        <p>{content}</p>
+      )}
     </div>
   ) : (
     <div className='collapse-close'>
