@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams } from "react-router-dom";
-import { useState } from "react";
 import * as Apartments from '@/data/Apartments.json';
 import leftVector from '@/assets/leftVector.png';
 import rightVector from '@/assets/rightVector.png';
 import './slideshow.css';
 
 export default function Slideshow() {
+    // On récupère l'id du logement dans l'URL
     const params = useParams()
     const id = params.id
 
+    // On utilise la méthode find afin de récupérer la/les photo(s) correspondante(s) au  
+    // logement séléctionné, grace à l'id de celui-ci dans le tableau Apartments (fichier json)
     const allApartsPics = Apartments.default.find(element => element.id === id).pictures
     const picNumber = allApartsPics.length
     const [onScreenPic, movePic] = useState(0)

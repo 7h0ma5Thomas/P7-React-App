@@ -43,7 +43,10 @@ export default function Housing() {
                             <img className='housing-infos-host-img' src={selectedApartment?.host.picture} alt="Hôte du logement" />
                         </div>
                         <div className="housing-infos-rating">
-                            <Rating ratingArray={selectedApartmentRating} maxRate={"5"} />
+                            <Rating 
+                                ratingArray={selectedApartmentRating} 
+                                maxRate={"5"} 
+                            />
                         </div>
                     </div>
                 </div> 
