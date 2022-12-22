@@ -33,18 +33,7 @@
 .active{
   height: 100%;
   width: 100%;
-  /*opacity: 1;
-  transition: 1s ease;*/
 }
-
-/*.inactive{
-  opacity: 0.2;
-  transition: 1s ease;
-  -webkit-transition: 1s ease;
-  -moz-transition: 1s ease;
-  -ms-transition: 1s ease;
-  -o-transition: 1s ease;
-}*/
 
 /* ============== PIC ============== */
 
