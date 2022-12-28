@@ -15,7 +15,7 @@ export default function About() {
             {/* On passe pic au composant banner afin d'afficher l'image 
             correspondante à cette page précisément, on ne passse pas de titre */}
             <Banner 
-                pic = {picAbout}
+                pic={picAbout}
             />
             <div className='body-about-collapses'>
             {/* On utilise la méthode "map" pour récupérer chaque éléments 

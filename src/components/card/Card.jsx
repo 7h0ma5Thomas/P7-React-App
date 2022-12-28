@@ -12,8 +12,7 @@ export default function Card({ title, id, cover }) {
         <Link className='card-link' to={`/housing/${id}`}>
                 <div className='card-background'></div>
                 <img className='card-pic' src={cover} alt={title} />
-                <h2 className='card-title'>{title}</h2>
-            
+                <h2 className='card-title'>{title}</h2> 
         </Link>
     </div>
   )
