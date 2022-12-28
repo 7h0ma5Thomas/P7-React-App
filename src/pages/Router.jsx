@@ -7,6 +7,8 @@ export default function Router () {
     return (
         <div>
             <Routes>
+                {/* Route "parent" incluant le header et
+                le footer pour chaque page (squelette) */}
                 <Route element={<Layout />}>
                     <Route index element={<Home />} />
 

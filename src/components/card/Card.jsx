@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import './card.css';
 
+// On passe les props "title", "id" et "cover"
 export default function Card({ title, id, cover }) {
   return (
     /* On attribut une clé à chaque élément "card" pour leur apporter

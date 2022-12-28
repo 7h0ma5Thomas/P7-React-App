@@ -17,6 +17,8 @@ export default function Rating({ ratingArray, maxRate }) {
 
     // On boucle de l'indice 0 à "maxRate" correspondant 
     // au nombre d'étoiles maximum défini dans notre prop
+    // On utilise des conditions pour afficher le nombre
+    // d'étoiles oranges et grises en fonction de la note
     for (let i = 0; i < `${maxRate}`; i++) {
         if (i === parseInt(ratingArray)) {
             coloredStar = false

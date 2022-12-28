@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './burgerMenu.css'
+import './burgerMenu.css';
 
 export default function BurgerMenu() {
   // On appelle le Hook "useState" permettant l'utilisation d'un état local à l'intérieure

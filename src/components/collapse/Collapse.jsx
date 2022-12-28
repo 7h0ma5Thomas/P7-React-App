@@ -1,8 +1,8 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import vector from '@/assets/Vector.png';
-import './collapse.css'
+import './collapse.css';
 
+// On passe à notre composant les props "title", "content" et "equipments"
 export default function Collapse({ title, content, equipments }) {
   // On appelle le Hook "useState" permettant l'utilisation d'un état local à l'intérieure
   // de la variable "isOpen" que l'on initialise sur "false" et que l'on modifiera à l'aide 

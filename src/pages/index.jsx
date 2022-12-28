@@ -1,3 +1,6 @@
+// Permet de simplifier le fichier "Router"
+// et de le rendre plus facilement maintenable
+
 export { default as Layout } from './Layout'
 export { default as Home } from './home/Home'
 export { default as Housing } from './housing/Housing'
